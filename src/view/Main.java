@@ -1,8 +1,6 @@
-package vista;
+package view;
 
-import controlador.MongoDBConection;
-import javafx.application.Application;
-import vista.logIn.StartUpTest;
+import controller.MongoDBConection;
 
 public class Main {
     public static void main(String[] args) {
