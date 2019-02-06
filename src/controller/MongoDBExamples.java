@@ -12,9 +12,9 @@ import org.bson.types.ObjectId;
 import static com.mongodb.client.model.Filters.*;
 import static com.mongodb.client.model.Updates.*;
 
-public class MongoDBConection {
+public class MongoDBExamples {
 
-    public MongoDBConection(){
+    public MongoDBExamples(){
         // Create a new connection with LocalHost and it's port.
         MongoClient mongoClient = new MongoClient("localhost", 27017);
 

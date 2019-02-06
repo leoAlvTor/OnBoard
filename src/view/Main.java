@@ -1,11 +1,14 @@
 package view;
 
-import controller.MongoDBConection;
+
+import javafx.application.Application;
+import view.logIn.LogIn;
 
 public class Main {
     public static void main(String[] args) {
-        //new Thread(() -> Application.launch(StartUpTest.class)).start();
+        new Thread(() -> Application.launch(LogIn.class)).start();
 
-        MongoDBConection mongoDBConection = new MongoDBConection();
+       // MongoDBExamples mongoDBConection = new MongoDBExamples();
+
     }
 }
